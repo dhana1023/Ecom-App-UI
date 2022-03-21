@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+}
+
+#app_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.user-image{
+    width: 50px;
+    height: 50px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.new-items-text,.discover-text{
+    font-size: 25px;
+}
+
+.search-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.search-bar{
+    width : 85%;
+    margin: 0px 10px;
+    border-radius:0px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+    height: 20%;
+}
+
+.pink-shoe{
+    width : 40%;
+    height: 90%;
+    border-radius: 8px;
+    margin: 4% 0;
+}
+
+#desciption{
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+
+    margin: 0px 3px;
+    margin-top : 20px;
+}
+
+#come{
+    color: dodgerblue;
+    font-size:20px;
+}
+
+#dis_1,.categories-txt,.popular-txt{
+    font-size:20px;
+}
+
+#switch1{
+   margin-top : 10px;
+}
+
+#dis_2{
+    font-size:10px;
+    color: grey;
+    margin-top: -5%;
+}
+
+#desciption_2{
+    display: flex;
+    flex-direction: column;
+    font-size:10px;
+    margin-top: 5px;
+    width: 20%;
+}
+
+#categories-section{
+    margin: 0px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 17px 0;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.b2 {
+    padding: 20px 10px;
+}
+
+.popular-txt-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+    width: 100%;
+}
+.popular-txt,.view-all-txt{
+    font-size: 10px;
+}
+
+.popular-cards-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+/*    height: 30%;*/
+    margin: 0px 10px;
+}
+
+.blue-shoe-card,.pink-shoe-card{
+    margin: 0px 3px;
+    height:15%;
+    weidht:100%;
+    border-radius: 10px;
+}
+
+#footer{
+    height:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+#ima{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon-image{
+    margin-left: 2px;
+    height:15px;
+    width: 15px;
+}
+
+.other{
+    font-size: 10px;
+}

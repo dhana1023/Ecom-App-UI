@@ -1,0 +1,79 @@
+<div class="container">
+
+                <div id="app_navbar">
+                    <button  type="circle" icon="./icon1.png" class="icon1" ></button>
+                    <image class="user-image" src="./icon2.png" />
+                </div>
+
+            <div class="texts">
+                <text class="discover-text">Discover</text>
+                <text class="new-items-text">our new items.</text>
+            </div>
+
+            <div id="search-section">
+                <div class="search-bar">
+                        <input class="search" type="text" id="query" name="q" placeholder="&#61442; Search" />
+                </div>
+
+                <button class="button" type="circle" icon="./filter.png"></button>
+            </div>
+
+    <div class="list">
+
+            <image class="pink-shoe" src="./pink-nobg.png"></image>
+             <div id= "desciption">
+                 <text id ="dis_1">Running Unisex Shoes</text>
+                 <text id ="come">Coming Soon..</text>
+             </div>
+             <div id= "desciption_2">
+                <input type="checkbox" id="switch1" />
+                <text id ="dis_2">Notify me</text>
+             </div>
+    </div>
+    <div id="categories-section">
+        <text class="categories-txt">Categories</text>
+
+        <div class="container3">
+            <button class="b2">Shoes</button>
+            <button class="b2">Table</button>
+            <button class="b2">Cupboard</button>
+            <button class="b2">Sofa</button>
+        </div>
+    </div>
+
+    <div class="popular-txt-section">
+        <text class="popular-txt">Popular Shoes</text>
+        <div id = "view">
+            <text class="view-all-txt">View All</text>
+            <input type="checkbox" id="switch1" />
+        </div>
+
+
+    </div>
+
+    <div class="popular-cards-section">
+        <image class="blue-shoe-card" src="./blue-nobg.png" ></image>
+        <image class="pink-shoe-card" src="./pink-nobg.png" ></image>
+
+    </div>
+    <div id="footer">
+        <div id = "ima">
+            <image class="icon-image" src="./home.png" /><text class="other">Home</text>
+        </div>
+        <div id = "ima">
+            <image class="icon-image" src="./categories.png" /><text class="other">Categories</text>
+        </div>
+
+        <div id = "ima">
+            <image class="icon-image" src="./notifications.png" /><text class="other">Notifications</text>
+        </div>
+
+        <div id = "ima">
+            <image class="icon-image" src="./cart.png" /><text class="other">My Cart</text>
+        </div>
+
+    </div>
+
+
+
+</div>

@@ -1,0 +1,52 @@
+<div class="container">
+
+    <div id = "app_navbar">
+        <button  id = "back_btn" type = "circle" icon="./Back.png"></button>
+        <text id = "navbar_heading">Details</text>
+        <button id = "twodots_btn">Two</button>
+    </div>
+    <div id="border">
+        <image id = "shoe" src = "../details/shoes.jpg"></image>
+    </div>
+    <div id = "card_discription">
+        <text id = "discription_1">Running Unisex Shoe</text>
+        <text id = "discription_2">1400 $</text>
+        <text id = "discription_3">A shoe is an item of footwear intended to protect and comfort the human foot. Shoes are also used as an item of decoration and fashion. The design of shoes has varies enormously through time and from culture to culture, with form originally being tied to function.</text>
+    </div>
+    <div id = "choice">
+        <div id = "radio">
+            <text  id = "radio_btn_text">Color</text>
+            <input type = "radio" name="choice" id="blue_radio"></input>
+            <input type = "radio" name="choice" id="yellow_radio"></input>
+            <input type = "radio" name="choice" id="red_radio"></input>
+
+        </div>
+        <div id ="container5">
+            <button onclick="increment()" id = "inc_dec_btn">+</button>
+            <text id="counting">1</text>
+            <button onclick="decrement()" id = "inc_dec_btn">-</button>
+        </div>
+    </div>
+    <div id = "size_select">
+        <div>
+            <text id="sizes" class="titles">Sizes  </text>
+        </div>
+
+        <div class="container3">
+            <button class="b2">6 inches</button>
+            <button class="b2">7 inches</button>
+            <button class="b2">8 inches</button>
+            <button class="b2">9 inches</button>
+        </div>
+    </div>
+    <div class="container4">
+        <div>
+            <button class="b3">Heart</button>
+        </div>
+        <div >
+            <button class="b4">Add To Cart    </button>
+        </div>
+    </div>
+
+</div>
+

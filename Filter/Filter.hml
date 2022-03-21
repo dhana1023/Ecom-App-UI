@@ -1,0 +1,64 @@
+<div class="container">
+
+    <div id = "app_navbar">
+        <button  id = "back_btn"> > </button>
+        <text id = "navbar_heading">Filter</text>
+        <button id = "twodots_btn">Two</button>
+    </div>
+    <div id = "gender_select">
+        <div>
+            <text id="gender" class="titles">Gender  </text>
+        </div>
+
+        <div class="container3">
+            <button class="b4">Male</button>
+            <button class="b4">Female</button>
+            <button class="b4">Other</button>
+        </div>
+    </div>
+    <div id = "category_select">
+        <div>
+            <text id="category" class="titles">Category</text>
+        </div>
+
+        <select id="choice" name="category">
+            <option value="Select Category">Select Category          </option>
+            <option value="shoes">Shoes</option>
+            <option value="sandals">Sandals</option>
+        </select>
+    </div>
+
+    <div id = "brand_select">
+                <text id="brand" class="titles">Brand</text>
+                <select id="brand_choice" name="brand">
+                     <option value="Select Brand">Select Brand</option>
+                </select>
+      </div>
+    <div id = "prize_select">
+
+                <text id="price" class="titles">Price</text>
+        </div>
+
+    <div id = "size_select">
+        <div>
+            <text id="sizes" class="titles">Sizes  </text>
+        </div>
+
+        <div class="container3">
+            <button class="b2">6 inches</button>
+            <button class="b2">7 inches</button>
+            <button class="b2">8 inches</button>
+            <button class="b2">9 inches</button>
+        </div>
+    </div>
+    <div class="container4">
+        <div>
+            <button class="b4">Clear</button>
+        </div>
+        <div >
+            <button class="b4">Add To Cart    </button>
+        </div>
+    </div>
+
+</div>
+

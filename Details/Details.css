@@ -1,0 +1,178 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#app_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 10px;
+}
+
+
+#border{
+    display: flex;
+    margin: 0px 10px;
+}
+
+#shoe{
+    border-radius: 10px;
+}
+
+#back_btn,#twodots_btn{
+    border-radius: 3px;
+
+    width: 30px;
+    height: 30px;
+}
+#card_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+#discription_1{
+    margin-top: 5px;
+    font-size: 20px;
+}
+#discription_2{
+    margin-top: 5px;
+    font-size: 18px;
+}
+#discription_3{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.titles {
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.9;
+
+
+}
+#choice{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 17px 0px;
+    width: 100%;
+    margin:0 10px;
+}
+#radio_btn_text{
+    font-size: 20px;
+}
+
+#radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 10px;
+}
+
+#counting{
+    font-size: 20px;
+}
+#inc_dec_btn{
+    padding: 6px 8px;
+    border-radius: 3px;
+    background-color: rgb(224, 218, 218);
+    margin: 0px 5px;
+    color: #000000;
+}
+
+#blue_radio{
+    color: blue;
+}
+
+#yellow_radio{
+    color: yellow;
+}
+
+#red_radio{
+    accent-color: red;
+}
+#container5{
+    background-color: cornflowerblue;
+    padding: 0 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    border-radius: 3px;
+
+}
+
+#size_select{
+    margin: 0px 10px;
+    width: 100%;
+}
+.container3 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 17px 0;
+    width: 85%;
+    margin-left: 10px;
+
+}
+.b2 {
+    padding: 20px 5px;
+
+}
+
+.container4 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.b4 {
+    padding: 20px 15px;
+}
+
+.b3{
+    padding: 20px 15px;
+    border-radius: 40px;
+    background-color: rgb(224, 218, 218);
+}
+
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .title {
+        font-size: 100px;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .title {
+        font-size: 28px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("../../common/images/Wallpaper.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .title {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .title {
+        font-size: 60px;
+    }
+}
